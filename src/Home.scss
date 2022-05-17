@@ -1,6 +1,21 @@
 .wordfulimage {
-    $size: 100px;
+    $size: 250px;
     width: $size;
     height: $size;
-    
+}
+
+.wordfulcard {
+    border: black;
+    border-style: solid;
+    padding: 10px;
+    margin: auto;
+}
+
+.cardtitle {
+    font-size: 20pt;
+}
+
+.playbutton {
+    font-size: 14pt;
+    width: 100px;
 }
