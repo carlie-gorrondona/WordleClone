@@ -1,8 +1,49 @@
-.lettercard {
-    border: black;
-    border-style: solid;
-    height: 100px;
-    width: 100px;
-    margin: auto;
+.wordfulwrapper {
+    background-color: black;
+    padding-bottom: 50px;
+
+    .backbutton {
+        margin: 10px 0 0 10px;
+        font-size: 10pt;
+        height: 33px;
+    }
+
+    h1 {
+        text-align: center;
+        color: white;
+    }
+    
+    #content {
+    
+        .wordfulletter {
+            height: 100px;
+            width: 100px;
+            margin: auto;
+            padding: 0;
+            border: white;
+            border-style: solid;
+            text-align: center;
+            font-size: 30pt;
+            background-color: rgb(35, 34, 34);
+            color: white;
+        }
+        
+        .wordfulcol {
+            max-height: 100px;
+            max-width: 100px;
+            padding: 0;
+            margin-top: 10px;
+            margin-right: 5px;
+        }
+        
+        .wordfulrow {
+            max-width: 100%;
+            justify-content: center;
+        }
+    }
+
 }
+
+
+
 

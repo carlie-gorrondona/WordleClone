@@ -1,21 +1,23 @@
-.wordfulimage {
-    $size: 250px;
-    width: $size;
-    height: $size;
+.homewrapper {
+    background-color: black;
+    height: 100vh;
+    padding-top: 50px;
+    
+    .wordfulcard {
+        border: black;
+        border-style: solid;
+        padding: 5px;
+        margin: auto;
+        text-align: center;
+    }
+    
+    .cardtitle {
+        font-size: 20pt;
+    }
+    
+    .playbutton {
+        font-size: 14pt;
+        width: 100px;
+    }
 }
 
-.wordfulcard {
-    border: black;
-    border-style: solid;
-    padding: 10px;
-    margin: auto;
-}
-
-.cardtitle {
-    font-size: 20pt;
-}
-
-.playbutton {
-    font-size: 14pt;
-    width: 100px;
-}

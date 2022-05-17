@@ -1,4 +1,5 @@
 import Root from './Root';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.scss';
 
 function App() {

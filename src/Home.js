@@ -12,7 +12,7 @@ export default function Home() {
                     <Card.Title className='cardtitle'>Wordful</Card.Title>
                     <Card.Text>
                     </Card.Text>
-                    <Button className='playbutton' to='/wordful' as={Link} variant="primary">Play</Button>
+                    <Button className='playbutton' to='/wordful' as={Link} variant="success">Play</Button>
                 </Card.Body>
             </Card>
             <Outlet />
